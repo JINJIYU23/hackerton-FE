@@ -1,0 +1,35 @@
+@mixin fontSize($size) {
+  font-size: $size;
+}
+@mixin padding($value) {
+  padding: $value;
+}
+
+.Login {
+  .container {
+    font-family: 'Bitter', 'serif';
+    width: 400px;
+    margin: 200px auto;
+
+    h1 {
+      @include padding(20px 0);
+      @include fontSize(20px);
+      text-align: center;
+    }
+    .login-inner {
+      p {
+        @include padding(10px 0);
+        @include fontSize(16px);
+        font-weight: bold;
+        font-family: 'Arial, Helvetica, sans-serif';
+        color: black;
+      }
+    }
+    .join-inner {
+      margin-top: 30px;
+    }
+  }
+  .goTosignUp {
+    color: black;
+  }
+}

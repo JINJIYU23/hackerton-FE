@@ -1,0 +1,13 @@
+.scrollSection {
+  display: flex;
+  justify-content: center;
+
+  .rogoScroll {
+    object-fit: cover;
+    max-width: 60vw;
+    max-height: 60vh;
+    position: fixed;
+    top: 50px;
+    z-index: 11;
+  }
+}
