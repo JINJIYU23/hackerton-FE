@@ -5,6 +5,7 @@ import Nav from './components/Nav/Nav';
 import Login from "./pages/Login/Login";
 import Join from "./pages/Join/Join";
 
+
 const Rout = () => {
     return (
         <div className="Rout">
