@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import './ProductList.css';
 
 const ProductList = ( {product_name, category, product_des, ingredient,price_origin, price_sale, product_stock, tumb_nail}) => {
     return (
         <li>
             <Link to={`/detailView/${category}`}>
-                <img src={tumb_nail} alt="" />
+                <img className="image" src={tumb_nail} alt="" />
                 <h3>{product_name}</h3>
                 <p>재료 : {ingredient}</p>
                 <p>원가 : {price_origin}원</p>

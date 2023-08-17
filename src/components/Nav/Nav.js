@@ -21,8 +21,8 @@ const Nav = () => {
     <div className="navContainer">
         <div className="navBox">
             <ul className="topMainUl">
-            <li className="topLi">
-                    <Link to='/' className="topLink">
+            <li className="topLi1">
+                    <Link to='/'>
                         노인복지 스토어
                     </Link>
                 </li>

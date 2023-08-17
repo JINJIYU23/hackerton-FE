@@ -1,6 +1,10 @@
 .visual img{
     width: 100%;
 }
+.banner {
+    width: 2000px;
+    height: 250px;
+}
 .product{
     width:100%;
     max-width: 1200px;

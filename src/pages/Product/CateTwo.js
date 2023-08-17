@@ -1,12 +1,11 @@
 import React from "react";
-import ProductList from "../Product/ProductList";
-import './Main.css';
+import ProductList from "./ProductList";
 import { Link } from 'react-router-dom';
 import axios from "axios";
-import useAsync from "./useAsync";
+import useAsync from "../Main/useAsync";
 
 async function productFetch() {
-    const response = await axios.get('https://port-0-elderlyback-ac2nll1a16hv.sel3.cloudtype.app/api/products/router/product/');
+    const response = await axios.get('https://port-0-elderlyback-ac2nll1a16hv.sel3.cloudtype.app/api/products/router/product/?product_name=&category=2');
     return response.data
 }
 
