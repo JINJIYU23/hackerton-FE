@@ -7,7 +7,7 @@
 
 .Login {
   .container {
-    font-family: 'Bitter', 'serif';
+    font-family: 'Noto Serif KR', serif;
     width: 400px;
     margin: 200px auto;
 
@@ -21,7 +21,7 @@
         @include padding(10px 0);
         @include fontSize(16px);
         font-weight: bold;
-        font-family: 'Arial, Helvetica, sans-serif';
+        font-family: 'Noto Serif KR', serif;
         color: black;
       }
     }
