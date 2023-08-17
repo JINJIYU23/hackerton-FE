@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hackerton-FE/static/css/main.357e92c5.css",
+    "main.js": "/hackerton-FE/static/js/main.a71d088d.js",
+    "index.html": "/hackerton-FE/index.html",
+    "main.357e92c5.css.map": "/hackerton-FE/static/css/main.357e92c5.css.map",
+    "main.a71d088d.js.map": "/hackerton-FE/static/js/main.a71d088d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.357e92c5.css",
+    "static/js/main.a71d088d.js"
+  ]
+}
